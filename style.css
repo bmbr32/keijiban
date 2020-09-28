@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+}
+.logo{
+    width: 20%;
+}
+.header_menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.header_menu ul li{
+    float: left;
+    list-style: none;
+    padding-left: 45px;
+    color: white;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+h1 {
+    border-left: solid black 4px;
+    border-bottom: solid black 2px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.main_con{
+    width: 70%;
+    float: left;
+}
+
+.box_form{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: lightblue;
+    border: solid lightgray 2px;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+.box_form h2{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid blue 3px;
+}
+
+form div{
+    padding: 10px;
+}
+
+.submit{
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: cadetblue;
+    color: white;
+    padding: 3px 8px;
+}
+
+.box_thread{
+    width: 92%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: solid lightgray 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 0px 10pX 10px 10px;
+}
+
+.box_thread h3{
+    border-bottom: solid lightgray 1px;
+}
+
+.thread_name{
+    font-size: 6px;
+}
+
+.sidebar{
+    float: right;
+    width: 25%;
+}
+
+.sidebar h2{
+    border-bottom: 1px dotted black;
+}
+.sidebar li{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
